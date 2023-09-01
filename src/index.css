@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+
+.maindiv {
+    background-color: rgb(167, 31, 31);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.centerdiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerdiv h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.btndiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+
+.btndiv button {
+    flex: 1;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.btn_green {
+    color: green;
+}
+
+.btn_red {
+    color: red;
+}
+
+p {
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
